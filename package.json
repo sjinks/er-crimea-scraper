@@ -1,16 +1,15 @@
 {
   "name": "er-crimea",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Scrapes members of the party from *.er-crimea.com",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name> (https://wildwolf.name/)",
   "license": "ISC",
   "dependencies": {
-    "archive.is": "0.0.2",
     "cheerio": "^1.0.0-rc.3",
     "fast-csv": "^3.4.0",
     "request": "^2.88.0",
@@ -23,5 +22,13 @@
     "@types/request": "^2.48.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjinks/er-crimea-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sjinks/er-crimea-scraper/issues"
+  },
+  "homepage": "https://github.com/sjinks/er-crimea-scraper#readme"
 }
